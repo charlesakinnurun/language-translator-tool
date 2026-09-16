@@ -1,0 +1,48 @@
+# ---- Python / backend -----------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+venv.bak/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.coverage.*
+build/
+dist/
+
+# ---- Node / frontend ------------------------------------------------------
+node_modules/
+dist/
+.vite/
+coverage/
+*.local
+npm-debug.log*
+*.tsbuildinfo
+
+# ---- Environment / secrets ------------------------------------------------
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# ---- Logs & temporary files ------------------------------------------------
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+.DS_Store
+Thumbs.db
+
+# ---- Editors / IDE ---------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
