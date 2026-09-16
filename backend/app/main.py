@@ -4,6 +4,7 @@ Run locally with::
 
     uvicorn app.main:app --reload --port 8000
 """
+# FastAPI application entrypoint
 
 import logging
 
